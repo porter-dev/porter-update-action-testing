@@ -1,5 +1,4 @@
-FROM ghcr.io/porter-dev/porter/porter-cli:v0.51.8
-
+FROM ghcr.io/porter-dev/porter/porter-cli:dev
 COPY entrypoint.sh /action/
 
 ENTRYPOINT ["/action/entrypoint.sh"]
